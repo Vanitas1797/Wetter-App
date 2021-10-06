@@ -1,8 +1,6 @@
 const express = require("express")
 const app = express()
 
-require("express")
-
 const endpoints = {
     user: "/user/:id",
     location: "/location",
