@@ -1,0 +1,26 @@
+{
+  "name": "Wetter-App",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^27.2.4",
+    "joi": "^17.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vanitas1797/Wetter-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vanitas1797/Wetter-App/issues"
+  },
+  "homepage": "https://github.com/Vanitas1797/Wetter-App#readme"
+}
