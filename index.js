@@ -35,7 +35,7 @@ const puts = {
     config: endpoints.user + endpoints.config,
 }
 const deletes = {
-    account: endpoints.account,
+    account: endpoints.user + endpoints.account,
 }
 
 app.get(gets.favorites, (req, res) => {
@@ -62,15 +62,15 @@ app.post(posts.favorites, (req, res) => {
 app.post(posts.register, (req, res) => {
 
 })
-app.post(puts.config, (req, res) => {
+app.put(puts.config, (req, res) => {
 
 })
-app.post(puts.login, (req, res) => {
+app.put(puts.login, (req, res) => {
 
 })
-app.post(puts.resetPassword, (req, res) => {
+app.put(puts.resetPassword, (req, res) => {
 
 })
-app.post(deletes.account, (req, res) => {
+app.delete(deletes.account, (req, res) => {
 
 })
