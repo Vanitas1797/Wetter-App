@@ -11,7 +11,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "nodemon": "nodemon"
   },
   "repository": {
     "type": "git",
